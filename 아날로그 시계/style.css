@@ -47,7 +47,7 @@ body {
 }
 
 .hand {
-  width: 50%;
+  width: 45%;
   height: 6px;
   background-color: purple;
   position: absolute;
@@ -55,6 +55,7 @@ body {
   border-radius: 6px;
   transform-origin: 100%;
   transform: rotate(90deg);
+  transition: all 0.3s;
 
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 
